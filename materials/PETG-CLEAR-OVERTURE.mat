@@ -1,0 +1,68 @@
+# MATIERE — PETG Clear Overture
+# Format : source de vérité universelle — machine-agnostique
+# Version : 1.0 — 2026-03-20
+# Source : https://makerworld.com/fr/models/30226-overture-petg-filament-profile-p1p#profileId-83020
+
+[meta]
+id              = PETG-CLEAR-OVERTURE
+type            = PETG
+variant         = Clear / Transparent
+marque          = Overture
+diametre_mm     = 1.75
+densite_g_cm3   = 1.27
+vitrification_c = 70
+statut          = ESSAI
+
+[thermique]
+nozzle_min_c         = 220
+nozzle_nominal_c     = 255
+nozzle_max_c         = 270
+bed_nominal_c        = 80
+bed_pei_texture_c    = 80
+bed_verre_c          = 75
+# Mode transparence optique uniquement :
+nozzle_transparence_c = 270
+
+[extrusion]
+flow_ratio           = 0.935
+flow_premiere_couche = 1.00
+# Volumetric speed max par diametre buse :
+vmax_04_mm3s         = 12
+vmax_06_mm3s         = 18
+vmax_08_mm3s         = 22
+
+[retraction]
+# Valeurs par type d extrudeur — a adapter par machine
+directdrive_mm       = 0.8
+directdrive_speed_mm_s = 30
+bowden_mm            = 4.5
+bowden_speed_mm_s    = 40
+
+[zhop]
+hauteur_mm           = 0.4
+type                 = auto
+
+[refroidissement]
+fan_min_pct          = 25
+fan_max_pct          = 70
+couches_sans_fan     = 3
+fan_overhang_pct     = 90
+# Mode transparence optique uniquement :
+fan_transparence_pct = 0
+
+[vitesses_reference]
+# Valeurs de référence 0.4mm Direct Drive
+premiere_couche_mm_s = 50
+outer_wall_mm_s      = 150
+inner_wall_mm_s      = 300
+infill_mm_s          = 270
+travel_mm_s          = 500
+support_mm_s         = 150
+bridge_mm_s          = 50
+
+[notes]
+- Flow 0.935 issu du calibrage Overture P1P officiel
+- PETG adhère fortement au PEI lisse — préférer PEI texturé
+- Sensible à l humidité — sécher 6h à 65°C si stocké >1 mois
+- Mode transparence : sacrifie résistance mécanique pour clarté optique
+- Bowden (EX1) : rétraction 4.5mm à ajuster selon test stringing

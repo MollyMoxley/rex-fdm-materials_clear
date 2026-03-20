@@ -1,0 +1,57 @@
+# MATIERE — [TYPE] [MARQUE]
+# Format : source de vérité universelle — machine-agnostique
+# Version : 1.0 — AAAA-MM-JJ
+# Source : [URL]
+
+[meta]
+id              = [TYPE]-[VARIANT]-[MARQUE]
+type            = [PLA/PETG/TPU/ABS...]
+variant         = [ex: Clear, CF, HF...]
+marque          = [marque]
+diametre_mm     = 1.75
+densite_g_cm3   =
+vitrification_c =
+statut          = ESSAI
+
+[thermique]
+nozzle_min_c         =
+nozzle_nominal_c     =
+nozzle_max_c         =
+bed_nominal_c        =
+bed_pei_texture_c    =
+bed_verre_c          =
+
+[extrusion]
+flow_ratio           =
+flow_premiere_couche = 1.00
+vmax_04_mm3s         =
+vmax_06_mm3s         =
+vmax_08_mm3s         =
+
+[retraction]
+directdrive_mm         =
+directdrive_speed_mm_s =
+bowden_mm              =
+bowden_speed_mm_s      =
+
+[zhop]
+hauteur_mm =
+type       = auto
+
+[refroidissement]
+fan_min_pct      =
+fan_max_pct      =
+couches_sans_fan =
+fan_overhang_pct =
+
+[vitesses_reference]
+premiere_couche_mm_s =
+outer_wall_mm_s      =
+inner_wall_mm_s      =
+infill_mm_s          =
+travel_mm_s          =
+support_mm_s         =
+bridge_mm_s          =
+
+[notes]
+-
