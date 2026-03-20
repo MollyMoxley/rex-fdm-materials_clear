@@ -1,0 +1,15 @@
+{
+    "fan_max_speed": ["70"],
+    "fan_min_speed": ["25"],
+    "filament_flow_ratio": ["0.935"],
+    "filament_max_volumetric_speed": ["12"],
+    "filament_settings_id": ["Overture PETG @BBL A1 0.4 nozzle"],
+    "filament_type": ["PETG"],
+    "from": "User",
+    "inherits": "Generic PETG @BBL A1",
+    "name": "Overture PETG @BBL A1 0.4 nozzle",
+    "nozzle_temperature": ["255"],
+    "nozzle_temperature_initial_layer": ["255"],
+    "slow_down_layer_time": ["6"],
+    "version": "1.9.0.14"
+}
