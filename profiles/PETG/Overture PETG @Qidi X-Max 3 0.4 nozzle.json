@@ -1,0 +1,19 @@
+{
+    "fan_max_speed": ["70"],
+    "fan_min_speed": ["25"],
+    "filament_flow_ratio": ["0.935"],
+    "filament_max_volumetric_speed": ["10"],
+    "filament_settings_id": ["Overture PETG @Qidi X-Max 3 0.4 nozzle"],
+    "filament_type": ["PETG"],
+    "from": "User",
+    "inherits": "Generic PETG",
+    "name": "Overture PETG @Qidi X-Max 3 0.4 nozzle",
+    "nozzle_temperature": ["255"],
+    "nozzle_temperature_initial_layer": ["255"],
+    "slow_down_layer_time": ["6"],
+    "filament_retraction_length": ["1.0"],
+    "filament_retraction_speed": ["35"],
+    "filament_deretraction_speed": ["30"],
+    "filament_z_hop": ["0.4"],
+    "version": "1.9.0.14"
+}
